@@ -34,10 +34,10 @@ Se realizaron las siguientes etapas de preparación de datos:
 5. Modelo Predictivo
 Se dividió el conjunto de datos en entrenamiento y prueba (80/20) y se entrenaron y evaluaron varios modelos predictivos:
 
-*Regresión Logística: Modelo basado en la escala de los datos, entrenado con datos estandarizados.
-*Random Forest: Modelo basado en árboles, entrenado sin estandarización.
-*KNN: Modelo basado en distancia, entrenado con datos estandarizados y PCA.
-*Árbol de Decisión: Modelo basado en árboles, entrenado sin estandarización.
+* Regresión Logística: Modelo basado en la escala de los datos, entrenado con datos estandarizados.
+* Random Forest: Modelo basado en árboles, entrenado sin estandarización.
+* KNN: Modelo basado en distancia, entrenado con datos estandarizados y PCA.
+* Árbol de Decisión: Modelo basado en árboles, entrenado sin estandarización.
 
 La evaluación se basó en métricas como Exactitud, Precisión, Recall, F1-score y Matriz de Confusión, prestando especial atención al rendimiento en la clase minoritaria (Churn = 1) debido al desbalance.
 
@@ -60,13 +60,13 @@ Basándose en los factores clave identificados en el análisis y la importancia 
 * Mejorar la experiencia con fibra óptica.
 * Optimizar métodos de pago.
 
-#. Tecnologías Utilizadas
+9. Tecnologías Utilizadas
 * Python
 * Pandas
 * NumPy
 * Scikit-learn
 * Matplotlib
 * Seaborn
-* 
+ 
 10. Autor
 Pablo Ortega / terremota

@@ -18,7 +18,7 @@ Se realizaron las siguientes etapas de preparación de datos:
 
 * Extracción de Datos: Carga del archivo TelecomX_normalizado.csv.
 * Eliminación de Columnas Irrelevantes: Se eliminó la columna customerID.
-*Encoding: Transformación de variables categóricas a formato numérico utilizando One-Hot Encoding para la mayoría y Label Encoding para la variable objetivo Churn. Se manejaron los valores nulos en Churn y se convirtió account.Charges.Total a numérico, rellenando nulos si aparecían después de la conversión.
+* Encoding: Transformación de variables categóricas a formato numérico utilizando One-Hot Encoding para la mayoría y Label Encoding para la variable objetivo Churn. Se manejaron los valores nulos en Churn y se convirtió account.Charges.Total a numérico, rellenando nulos si aparecían después de la conversión.
 * Verificación de la Proporción de Cancelación (Churn): Se analizó el desbalance de clases en la variable objetivo.
 * Normalización/Estandarización: Se aplicó StandardScaler a las variables numéricas (customer.tenure, account.Charges.Monthly, account.Charges.Total) para preparar los datos para modelos sensibles a la escala.
 
